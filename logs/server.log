@@ -52,3 +52,22 @@
 2021-08-18 12:39:48,701 DEBUG server.py Соединение с клиентом ('127.0.0.1', 58973) закрывается.
 2021-08-18 12:48:46,210 DEBUG decos.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
 2021-08-18 12:48:46,211 INFO server.py Запущен сервер, порт для подключений: 7777, адрес, с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2021-08-18 16:09:35,286 DEBUG server.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2021-08-18 16:09:35,286 INFO server.py Запущен сервер, порт для подключений: 7777, адрес, с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2021-08-18 16:09:56,965 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60004)
+2021-08-18 16:09:56,980 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60004)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2021-08-18 16:09:56,980 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1629292196.9652424, 'user': {'account_name': 'Guest'}}
+2021-08-18 16:09:56,980 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1629292196.9652424, 'user': {'account_name': 'Guest'}}
+2021-08-18 16:09:56,980 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1629292196.9652424, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2021-08-18 16:09:56,980 INFO server.py Cформирован ответ клиенту {'response': 200}
+2021-08-18 16:09:56,980 DEBUG server.py Была вызвана функция send_message c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60004)>, {'response': 200}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2021-08-18 16:09:56,980 DEBUG server.py Соединение с клиентом ('127.0.0.1', 60004) закрывается.
+2021-08-18 16:20:10,484 DEBUG server.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2021-08-18 16:20:40,857 DEBUG server.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2021-08-18 16:21:45,200 DEBUG server.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2021-08-18 16:21:45,200 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2021-08-18 16:21:53,610 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60034)
+2021-08-18 16:21:54,126 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60034)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2021-08-18 16:21:54,126 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1629292913.6109655, 'user': {'account_name': 'Guest'}}
+2021-08-18 16:21:54,142 DEBUG server.py Была вызвана функция send_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60034)>, {'response': 200}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции process_client_message
+2021-08-18 16:21:54,157 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1629292913.6109655, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60034)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
